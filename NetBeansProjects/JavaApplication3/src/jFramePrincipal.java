@@ -44,7 +44,7 @@ public class jFramePrincipal extends javax.swing.JFrame {
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel1.setText("SISTEMA DE CADASTRO DAN");
+        jLabel1.setText("SISTEMA DE CADASTRO");
 
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/9771721 (1).png"))); // NOI18N
         jLabel3.setText("jLabel3");
@@ -86,7 +86,7 @@ public class jFramePrincipal extends javax.swing.JFrame {
                         .addComponent(jButtonCad)
                         .addGap(35, 35, 35)
                         .addComponent(jButtonSob)))
-                .addContainerGap(47, Short.MAX_VALUE))
+                .addContainerGap(90, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                 .addGap(0, 0, Short.MAX_VALUE)
                 .addComponent(jButtonSair))
