@@ -50,6 +50,7 @@ public class jFramePrincipal extends javax.swing.JFrame {
         jLabel3.setText("jLabel3");
 
         jButtonCad.setText("CADASTRAR");
+        jButtonCad.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jButtonCad.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonCadActionPerformed(evt);
@@ -57,6 +58,7 @@ public class jFramePrincipal extends javax.swing.JFrame {
         });
 
         jButtonSob.setText("SOBRE");
+        jButtonSob.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jButtonSob.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonSobActionPerformed(evt);
@@ -64,6 +66,7 @@ public class jFramePrincipal extends javax.swing.JFrame {
         });
 
         jButtonSair.setText("SAIR");
+        jButtonSair.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jButtonSair.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonSairActionPerformed(evt);
